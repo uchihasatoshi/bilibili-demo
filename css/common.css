@@ -1,0 +1,61 @@
+header{
+    background: #fb7299;
+}
+.header-top{
+    height: 56px;
+    width: 100%;
+}
+.header-top .left-nav a{
+    margin: 20px 14px 20px 0;
+    width: 8px;
+    height: 16px;
+    background: url("../images/index-btn.png") no-repeat;
+}
+.header-top .index-logo .logoimg{
+    width: 32px;
+    height: 32px;
+    margin: 10px 15px 10px 0;
+    border-radius: 50%;
+    background: url("../images/index-logo.png") no-repeat;
+}
+.header-top .index-logo p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+
+}
+.header-top .right-nav{
+    margin-top: 20px;
+}
+.right-nav .right-navs{
+    margin: 0 15px;
+    /*border: 1px solid #000;*/
+}
+.right-nav .right-navs a{
+    width: 22px;
+    height: 18px;
+    background: url('../images/index-nav1.png') no-repeat;
+}
+.right-nav .right-navs:nth-child(3) a{
+    background-position: 0 -36px;
+}
+.right-nav .right-navs:nth-child(1) a{
+    background-position: 0 -18px;
+}
+.header-bottom{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.header-bottom div a{
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+
+}
+.header-bottom div a:hover{
+    border-bottom:2px solid #ddd;
+}
