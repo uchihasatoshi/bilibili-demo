@@ -1,0 +1,11 @@
+.banner .carousel-indicators{
+    bottom: 0px;
+    left: 90%;
+}
+.banner .carousel-indicators .active{
+    background-color: #fb7299;
+}
+.banner .carousel-indicators li{
+    border: none;
+    background: #fff;
+}
