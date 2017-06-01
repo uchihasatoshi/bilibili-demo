@@ -1,3 +1,4 @@
+/*banner区 轮播*/
 .banner .carousel-indicators{
     bottom: 0px;
     left: 90%;
@@ -8,4 +9,39 @@
 .banner .carousel-indicators li{
     border: none;
     background: #fff;
+}
+/*nav区*/
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .nav-list{}
+nav .nav-list .nav-list-img{
+    margin:0px auto;
+    width: 30px;
+    height: 28px;
+    background: url("../images/index-nav2.png") no-repeat;
+}
+nav .nav-list .nav-list-text{
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #333;
+}
+nav div:nth-child(2) .nav-list-img{
+    background-position: 0 -28px;
+}
+nav div:nth-child(3) .nav-list-img{
+    background-position: 0 -56px;
+}
+nav div:nth-child(4) .nav-list-img{
+    background-position: 0 -84px;
+}
+nav div:nth-child(5) .nav-list-img{
+    background-position: 0 -112px;
 }

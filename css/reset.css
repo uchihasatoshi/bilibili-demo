@@ -15,6 +15,10 @@ a{
     display: block;
     color: #fff;
 }
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 img{
     border: none;
     display: block;
