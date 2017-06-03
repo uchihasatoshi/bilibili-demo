@@ -3,6 +3,9 @@
     bottom: 0px;
     left: 90%;
 }
+.banner .carousel-inner img{
+    width: 100%;
+}
 .banner .carousel-indicators .active{
     background-color: #fb7299;
 }
@@ -91,13 +94,22 @@ section .sec-header{
 }
 .sec-body .sec-room{
     width: 160px;
-    /*height: 170px;*/
-    padding-bottom: 10px;
+    box-shadow: 2px 3px 2px #d2d2d2;
+    margin-bottom: 18px;
     background: #fafafa;
 }
-.sec-room img{}
+.sec-room .sec-room-hearder{
+    background: #eaeaea;
+}
+.sec-room .sec-room-hearder img{
+    width: 100%;
+    border-radius: 4px;
+}
+.sec-room .sec-room-body{
+    padding: 10px 0 2px 0;
+}
 .sec-room .sec-explain{
-    margin: 10px 8px;
+    margin: 0 8px;
     font-size: 14px;
     height: 34px;
     line-height: 1.2;
@@ -108,7 +120,7 @@ section .sec-header{
     color: #fb7299;
 }
 .sec-room .sec-bottom{
-    margin: 0px 8px;
+    margin: 10px;
 }
 .sec-room .sec-bottom .sec-name{
     font-size: 12px;
@@ -128,4 +140,23 @@ section .sec-header{
     margin-right: 2px;
     margin-top: 1px;    /*微调*/
     background: url("../images/yan.png") no-repeat;
+}
+.sec-footer .sec-still-more a{
+    width: 108px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 2px #d2d2d2;
+    color: #333;
+    text-align: center;
+    background: #fafafa;
+}
+.sec-footer .sec-still-renovate a{
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+}
+.sec-footer .sec-still-renovate img{
+    display: inline-block;
+    margin-left: 4px;
 }
